@@ -1,0 +1,4 @@
+third*($ page!#$
+letterswith123	bored
+PAGE!! hey!!
+[anchor text](data/testpage2.txt)

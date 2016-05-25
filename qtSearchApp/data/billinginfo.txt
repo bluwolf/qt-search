@@ -1,0 +1,21 @@
+Company Name: AMAZON
+Company Bill: 0
+
+Company Name: Marvin T. Greedy Class Action Law Firm
+Company Bill: 0
+
+Company Name: USC
+Company Bill: 0
+
+Company Name: Westwood Community College 
+Company Bill: 0
+
+Company Name: X is Marvelous Entertainment
+Company Bill: 10.8
+
+Company Name: X's Universal Studio
+Company Bill: 123.8
+
+Company Name: amazon
+Company Bill: 0
+

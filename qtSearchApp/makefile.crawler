@@ -1,0 +1,23 @@
+#Compiler flags
+CC=g++
+CPPFLAGS=-std=c++11 -Wall -g
+#Directories
+SRC_DIR=
+SOURCE=web_crawler.cpp
+HEADER_DIR=headers
+BIN_DIR=bin
+HEADER_DIR2=hdr
+#Phony targets
+.PHONY: clean ccversion
+all: $(BIN_DIR)/web_crawler
+$(BIN_DIR)/web_crawler: $(BIN_DIR)/.dirstamp $(SOURCE) $(HEADER_DIR)/Set.h 
+	$(CC) $(SOURCE) -o $@ $(CPPFLAGS) -I$(HEADER_DIR)/ 
+# Rule to ensure the $(BIN_DIR) directory exist or it'll create it.
+$(BIN_DIR)/.dirstamp:
+	-@mkdir -p $(BIN_DIR) && touch $@
+#Check $(CC) version
+ccversion:
+	@$(CC) --version
+#The clean rule
+clean:
+	-@rm -Rf $(BIN_DIR)
